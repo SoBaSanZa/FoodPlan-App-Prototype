@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <!-- ปุ่มย้อนกลับ -->
+    <ImageView
+        android:id="@+id/backButton1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- หัวข้อ -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Sign Up"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backButton1" />
+
+    <!-- กรอก Username -->
+    <EditText
+        android:id="@+id/usernameField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:backgroundTint="#BE13E9"
+        android:minHeight="60dp"
+        android:textColorHint="#FA6300"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- กรอก E-mail -->
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="E-mail"
+        android:padding="12dp"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="#BE13E9"
+        android:minHeight="60dp"
+        android:textColorHint="#FA6300"
+        app:layout_constraintTop_toBottomOf="@id/usernameField"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- กรอก Password -->
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Password"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:backgroundTint="#BE13E9"
+        android:minHeight="60dp"
+        android:textColorHint="#FA6300"
+        app:layout_constraintTop_toBottomOf="@id/emailField"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- กรอก Repeat Password -->
+    <EditText
+        android:id="@+id/repeatPasswordField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Repeat Password"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:backgroundTint="#BE13E9"
+        android:minHeight="60dp"
+        android:textColorHint="#FA6300"
+        app:layout_constraintTop_toBottomOf="@id/passwordField"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- ปุ่ม Check -->
+
+    <!-- ปุ่มกด Sign Up -->
+
+    <CheckBox
+        android:id="@+id/termsCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:buttonTint="#FFFFFF"
+        android:minHeight="48dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="I accept the terms and conditions."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repeatPasswordField" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        style="@style/revers"
+        android:text="SING UP"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/termsCheckbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- ปุ่มกด Sign Up with -->
+
+    <!-- Layout ของ Social-->
+
+    <TextView
+        android:id="@+id/signUpWithText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="------------------------------- Or Sign up with -------------------------------"
+        android:textColor="#878686"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signUpButton" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signUpWithText"
+        app:layout_constraintWidth_percent="0.8">
+
+        <!-- ic google-->
+        <FrameLayout
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/rectengle"
+            android:src="@drawable/ic_google"
+            android:layout_marginEnd="50dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_google"/>
+        </FrameLayout>
+
+        <!-- ic facebook-->
+        <FrameLayout
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/rectengle"
+            android:src="@drawable/ic_google"
+            android:layout_marginEnd="50dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_facebook"/>
+        </FrameLayout>
+
+        <!-- ic cat-->
+        <FrameLayout
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/rectengle"
+            android:src="@drawable/ic_google">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_cat"/>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Dashboard"
+    style="@style/Theme.AppCompat.DayNight">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="388dp"
+        android:layout_height="663dp"
+        android:layout_marginTop="28dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectengle"/>
+
+
+    <TextView
+        android:id="@+id/wellcometext"
+        android:layout_width="338dp"
+        android:layout_height="427dp"
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical"
+        android:text="@string/Lolem"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/gonext"
+        android:layout_width="327dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/get_start"
+        android:textColor="@color/black"
+        style="@style/revers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="192dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="28dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/copylogo" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

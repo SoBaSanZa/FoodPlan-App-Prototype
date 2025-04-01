@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">FoodPlan</string>
+    <string name="todo">TODO</string>
+    <string name="foodplan">FOODPLAN</string>
+    <string name="let_me_think_for_you">LET ME THINK FOR YOU</string>
+    <string name="dashboard">dashboard</string>
+    <string name="get_start">GET START</string>
+    <string name="Lolem">WELLCOME TO FOODPLAN
+            \n
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.
+            Lorem Ipsum
+            \n
+            is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets
+            \n
+            containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="calender">CALENDAR</string>
+        <string name="todod">TODO</string>
+        <string name="tododd">TODO</string>
+        <string name="chat">CHAT</string>
+        <string name="tododdd">TODO</string>
+        <string name="discont">DISCONT</string>
+        <string name="tododddd">TODO</string>
+        <string name="dddd">TODO</string>
+        <string name="discontdd">DISCONT</string>
+        <string name="acc" />
+        <string name="ACCOUNT" />
+        <string name="minilolem">"          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</string>
+</resources>

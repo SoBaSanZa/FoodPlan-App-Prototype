@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="calender">#FF8343</color>
+    <color name="calender2">#F8BE9F</color>
+
+
+    <color name="discount">#B69877</color>
+    <color name="discount2">#FBE6CE</color>
+
+    <color name="chat">#179BAE</color>
+    <color name="chat2">#BDEBF6</color>
+
+
+    <color name="map">#4158A6</color>
+    <color name="map2">#C1CFF6</color>
+
+
+    <color name="acc">#1F509A</color>
+    <color name="acc2">#B1C8F6</color>
+
+</resources>

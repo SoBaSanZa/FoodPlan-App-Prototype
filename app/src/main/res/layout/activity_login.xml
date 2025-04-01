@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Logo -->
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="-70dp"
+            android:src="@mipmap/logotext_foreground"/>
+
+        <!-- Password -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="#BE13E9"
+            android:textColorHint="#FA6300"
+            android:hint="Username"
+            android:minHeight="60dp"
+             />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="#E408C7"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#FA6300"
+            android:minHeight="60dp"
+            app:boxBackgroundMode="none"
+            app:boxStrokeColor="@color/black" />
+
+
+        <!-- Forgot Password and Sign Up -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <!-- Forgot Password -->
+            <TextView
+                android:id="@+id/forgotpassword1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:text="Forgot Password?"
+                android:textColor="#287599"
+                android:textSize="14sp"
+                android:gravity="start" />
+
+            <!-- Sign Up -->
+            <TextView
+                android:id="@+id/ButtonSignUP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="Sign Up?"
+                android:textColor="#8F00F2"
+                android:textSize="14sp"
+                android:gravity="end" />
+        </LinearLayout>
+
+        <!-- Sign Up With -->
+        <Button
+            android:id="@+id/login"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"
+            style="@style/revers"
+            android:text="LOGIN" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="------------------------------- Or Sign up with -------------------------------"
+            android:textSize="14sp"
+            android:textColor="#878686"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Social Media Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <!-- ic google-->
+            <FrameLayout
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/rectengle"
+                android:src="@drawable/ic_google"
+                android:layout_marginEnd="50dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_google"/>
+            </FrameLayout>
+
+            <!-- ic facebook-->
+            <FrameLayout
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/rectengle"
+                android:src="@drawable/ic_google"
+                android:layout_marginEnd="50dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_facebook"/>
+            </FrameLayout>
+
+            <!-- ic cat-->
+            <FrameLayout
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/rectengle"
+                android:src="@drawable/ic_google">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_cat"/>
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

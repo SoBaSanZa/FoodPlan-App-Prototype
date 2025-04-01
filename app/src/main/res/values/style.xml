@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundSquare">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="revers">
+        <item name="backgroundTint">@android:color/white</item>
+        <item name="rippleColor">@color/white</item>
+        <item name="android:background">@drawable/border_with_shadow</item>
+    </style>
+</resources>
